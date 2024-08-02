@@ -1,0 +1,12 @@
+{
+  "name": "powerloom-rpc-test",
+  "version": "1.0.0",
+  "description": "Check if the machine can connect to Powerloom RPC and fetch latest block information",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2"
+  }
+}
