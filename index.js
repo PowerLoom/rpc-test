@@ -6,7 +6,7 @@ const RPC_URL = process.env.PROST_RPC_URL || 'https://rpc-prost1m.powerloom.io/'
 async function getLatestBlockNumber() {
   try {
     // Create a provider
-    const provider = new ethers.providers.JsonRpcProvider(RPC_URL);
+    const provider = new ethers.JsonRpcProvider(RPC_URL);
 
     console.log(`Using RPC URL: ${RPC_URL}`);
 
