@@ -28,4 +28,5 @@ getLatestBlockNumber().then((result) => {
   } else {
     console.log('❌ Failed to fetch the latest block number.');
   }
+  process.exit(0);
 });
