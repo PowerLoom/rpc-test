@@ -24,9 +24,9 @@ async function getLatestBlockNumber() {
 // Test the function
 getLatestBlockNumber().then((result) => {
   if (result !== null) {
-    console.log('✅ Successfully fetched the latest block number.');
+    console.log('✅ Successfully fetched the latest block number. Your ISP is supported!');
   } else {
-    console.log('❌ Failed to fetch the latest block number.');
+    console.log('❌ Failed to fetch the latest block number. Your ISP/VPS region is not supported ⛔️');
   }
   process.exit(0);
 });
