@@ -1,7 +1,7 @@
 const { ethers } = require('ethers');
 
 // RPC URL - use environment variable or default to the main RPC
-const RPC_URL = process.env.PROST_RPC_URL || 'https://rpc-prost1m.powerloom.io/';
+const RPC_URL = process.env.PROST_RPC_URL || 'https://rpc.powerloom.network/';
 
 async function getLatestBlockNumber() {
   try {
